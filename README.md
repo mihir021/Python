@@ -22,7 +22,7 @@ My GitHub Stats & Languages 🚀
 The repository is organized as follows, with scripts grouped by topic or chapter:
 
 /Python
-├── 📁 Ch3/ 
+├── 📁 Ch3/
 
 │   └── P1.py
 
