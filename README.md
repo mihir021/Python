@@ -30,18 +30,30 @@ This is a personal collection of various Python scripts, programming exercises, 
 The repository is organized as follows, with scripts grouped by topic or chapter:
 
 /Python
-├── 📁 Ch3/
+├── 📁 Ch3
+
 │ └── P1.py
+
 ├── 📁 clg/
+
 │ └── 📁 PQ71/
+
 │ ├── globLocal.py
+
 │ └── PBTest.py
+
 ├── 📁 Test/
+
 │ └── HPNumber.py
+
 ├── try.py
+
 ├── secundH.py
+
 ├── secundt.py
+
 ├── swepITDandLD.py
+
 └── valiDate.py
 
 yaml
