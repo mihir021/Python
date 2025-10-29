@@ -211,3 +211,152 @@ print(a.split(" "))
 a = "I#Am#IronMan#txt"
 print(a.split("#"))
 print(a.split("#",2))
+
+print("------------------------------------------------------------")
+
+txt = ",,,,rrrtr.bananarr,,.m..."
+x = txt.strip(".gr,t") # oder is not imp
+print(x)
+
+print("---------- lstrip ----------------")
+
+x = txt.lstrip("gt., r")
+print(x)
+
+print("---------- rstrip ----------------")
+
+x = txt.rstrip("gt.,r")
+print(x)
+
+print("---------- translate ----------------")
+
+txt = "hello sam!"
+# myTable = txt.maketrans("s","pojo") --> ValueError: the first two maketrans arguments must have equal length
+myTable = txt.maketrans("s","p")
+print(txt.translate(myTable))
+
+print()
+
+txt = "hi Sam mmm!"
+x = "mSa"
+y = "eJo"
+myTable = txt.maketrans(x,y)
+print(type(myTable))
+print(txt.translate(myTable))
+
+print("---------------------------------")
+
+txt = "Good morning Sam"
+x = "mSa"
+y = "eJo"
+z = "odnght"  # element to remove
+
+myTable = txt.maketrans(x,y,z)
+# 1st remove element of z from string then -> make table and replace the x to y
+print(txt.translate(myTable))
+
+print("---------------------------------")
+
+txt = "Good morning, Sam"
+
+myTable = txt.maketrans(","," ")
+# 1st remove element of z from string then -> make table and replace the x to y
+print(txt.translate(myTable))
+
+print("--------------- count ------------------")
+
+txt = " I love apples , apple are my favourite fruit"
+x = txt.count("apple")
+print(x)
+
+x = txt.count("apple",10,24)
+print(x)
+
+print("------------ sorted ---------------------")
+py = "python"
+print(sorted(py))
+print(sorted(py,reverse=True))
+
+print("------------ Tuple ---------------------")
+t = ()
+print(type(t))
+
+t = (10)
+p = (10,)
+print(t)
+print(p)
+
+t = 1,2,3,4
+print(t,type(t))
+
+t = tuple(range(1,10,2))
+print(t)
+print()
+t = 1,2,3,4
+print(t[1])
+# t[1] = 5 --> TypeError: 'tuple' object does not support item assignment
+t = ("ap","ba","ch","or","ki","me","ma")
+print(t[1])
+print(t[-1])
+print(t[2:5])
+print(t[:4])
+print(t[2:])
+print(t[-4:-1])
+print()
+# del t[3] --> TypeError: 'tuple' object doesn't support item deletion
+del t
+# print(t) --> NameError: name 't' is not defined
+print((1,2,3)+(4,5,6))
+
+print("------------ repetition ---------------------")
+print(("repeat",)*4)
+print(("repeat","h")*4)
+a = (1,2,3)
+b = (1,4)   # --> (1,4,0)
+print(a<b)
+
+print()
+a = (1,2,3)
+b = (1,2,3)
+print(a==b)
+
+print()
+a = (1,2,5)
+b = (1,2,3)
+print(a>b)
+
+print()
+t = (1,3,5,8,5,8,6,5)
+x = t.count(5)
+print(x)
+
+print()
+
+x = t.index(5)
+print(x)
+
+print()
+
+t = ("e","a","o","u","i")
+print(t)
+print()
+print(sorted(t))
+print(sorted(t,reverse=True))
+
+print("--------- max and min -------------------")
+
+x = max(1457,267,464)
+y = min(1457,267,464)
+print(x,y)
+x = max("mike","john","vicky")
+
+
+
+
+
+
+
+
+
+
+

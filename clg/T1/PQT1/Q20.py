@@ -1,4 +1,4 @@
-from clg.PQT1.Q2 import isPrime
+from clg.T1.PQT1.Q2 import isPrime
 
 n = 10 + 1
 c = 0
