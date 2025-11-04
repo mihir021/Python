@@ -350,6 +350,25 @@ y = min(1457,267,464)
 print(x,y)
 x = max("mike","john","vicky")
 
+print("--------- reversed -------------------")
+
+a = "Python"
+b = reversed(a)
+print(b)
+for i in b:
+    print(i,end="")
+print()
+a = ("x","y","z",1,2,3)
+b = reversed(a)
+for i in b:
+    print(i,end="")
+print()
+a = (1,(2,3))
+print(a[1][1])
+a = "Python is very interesting "
+b = slice(0,5)
+print(type(b))
+print(a[b])
 
 
 
