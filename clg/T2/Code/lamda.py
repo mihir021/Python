@@ -28,9 +28,9 @@ print(f)
 
 f = list(filter(lambda x:(x > 18),li))
 print(f)
-
+print()
 print("--------  lamda with map() ----------")
-
+print()
 li = [5,7,22,97,54,62,77,23,73,61]
 f = list(map(lambda x:x*2,li))
 print(f)
@@ -38,12 +38,14 @@ print(f)
 li = ["avcx","gvhbj"]
 f = list(map(lambda x: str.upper(x) , li))
 print(f)
+print(li)
 
 li = [1,2,3,4,5]
+# reduce(function, iterable[, initial]) -> value
 sum = reduce(lambda x,y:x+y , li)
 print(sum)
 print()
-li = [1,2,3,4,5,-1,-7,88]
+li = [87,2,3,4,5,-1,-7,88]
 sum = reduce(lambda x,y:x if x>y else y, li)
 print(sum)
 
