@@ -1,3 +1,5 @@
+from enum import unique
+
 print("----------------------------------------")
 
 color = ["red", "blue" , "green"]
@@ -171,7 +173,41 @@ n = ["v","s","r","0"]
 n.sort(reverse=False)
 print(n)
 
+print("---------------- list comprehension------------------------")
 
+sq = [x**2 for x in range(5)]
+print(sq)
+
+
+evenSq = [x**2 for x in range(10) if x%2==0]
+print(evenSq)
+
+print("---------------- set comprehension------------------------")
+
+unique_sq = {x**2 for x in [1,2,2,3,3,4]}
+print(unique_sq)
+
+print("---------------- dictionary comprehension------------------------")
+
+sqD = {x:x**2 for x in range(5)}
+print(sqD)
+
+evenSq = {x**2 for x in range(10) if x%2==0}
+print(evenSq)
+
+print("---------------- generator tuple compression ------------------------")
+
+gen = (x**2 for x in range(5))
+print(gen)
+print(tuple(gen))
+
+print("---------------- sort with key ------------------------")
+
+a = ["xyz","tijkl","fsvj"]
+print(a.sort())
+print(a)
+print(a.sort(key=len))
+print(a)
 
 
 

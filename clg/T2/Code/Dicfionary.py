@@ -57,10 +57,10 @@ for i in d.values():
     print(i)
 
 print("--------------------- items ------------------------")
-
+d = {'brand ':'Fode','mode':'Mustang','year':1964 }
 print(d.items())
 for i in d.items():
-    print(i)
+    print(id(i), d.get(id(i)))
 
 print("--------------------- items ------------------------")
 
