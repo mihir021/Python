@@ -99,3 +99,16 @@ def trap(height):
     return trapped_water
 
 print(max1)
+
+print("---------------- Q7 -----------------------")
+
+msg = "ALL GOOD ADOOLLG"
+listTemp = msg.split()
+
+temp = listTemp[0] + listTemp[1]
+for i in range(len(temp)):
+    if temp.count(temp[i]) != listTemp[2].count(temp[i]):
+        print("NO")
+        break
+else:
+    print("YES")
