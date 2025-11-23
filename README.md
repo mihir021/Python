@@ -18,10 +18,7 @@ This is a personal collection of various Python scripts, programming exercises, 
 
 ## 🚀 My GitHub Stats & Languages
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=mihir021&show_icons=true&theme=tokyonight" alt="GitHub Stats Card">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihir021&layout=compact&theme=tokyonight" alt="Top Languages Card">
-</p>
+
 
 ---
 
