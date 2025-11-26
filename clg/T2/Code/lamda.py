@@ -34,6 +34,7 @@ print()
 li = [5,7,22,97,54,62,77,23,73,61]
 f = list(map(lambda x:x*2,li))
 print(f)
+print(li)
 
 li = ["avcx","gvhbj"]
 f = list(map(lambda x: str.upper(x) , li))

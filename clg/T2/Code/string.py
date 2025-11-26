@@ -31,6 +31,7 @@ print("---------------------------------------------------")
 
 # By using slicing
 # [start : end : step]
+a = "hello world!"
 
 print(a[2:5])
 print(a[:5])
@@ -254,6 +255,7 @@ z = "odnght"  # element to remove
 myTable = txt.maketrans(x,y,z)
 # 1st remove element of z from string then -> make table and replace the x to y
 print(txt.translate(myTable))
+print(txt)  # no change in main string
 
 print("---------------------------------")
 
